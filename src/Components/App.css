@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.TextMatchForm {
+  text-align: left;
+}
+
+.TextMatchResult {
+  text-align: left;
+  padding-top: 20;
+}
