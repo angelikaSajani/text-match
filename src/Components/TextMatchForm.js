@@ -37,7 +37,7 @@ class TextMatchForm extends React.Component {
 
     return (
       <div className="TextMatchForm">
-        <h2>Find all ocurrances of 'Subtext' within 'Text'</h2>
+        <h2>Find all occurrences of 'Subtext' within 'Text'</h2>
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">
             <label htmlFor="text">Text</label>
