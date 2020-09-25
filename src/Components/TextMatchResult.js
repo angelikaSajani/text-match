@@ -33,7 +33,9 @@ function TextMatchResult(props) {
     <div className="TextMatchResult">
       <div className="alert alert-success">
         <strong>Success!</strong>{" "}
-        {`TextMatcher found ${results.length} matches`}
+        {`TextMatcher found ${results.length} match${
+          results.length === 1 ? "" : "es"
+        }`}
       </div>
 
       <ul className="list-group list-group-flush">
